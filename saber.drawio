@@ -124,76 +124,6 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="AX_PNSprOtDnCvLPGyHK" name="CPU-FPGA overview（module）">
-    <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="ei4g1-9aVAL9ST8Osvbl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="70" width="340" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="ei4g1-9aVAL9ST8Osvbl-2" value="SM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="30" y="70" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ei4g1-9aVAL9ST8Osvbl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="70" width="290" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="ei4g1-9aVAL9ST8Osvbl-4" value="FPGA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="440" y="70" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ei4g1-9aVAL9ST8Osvbl-5" value="Enclave Management" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="300" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="p8XPLCWFIg5h7ARrhibj-1" value="FPGA Communicator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="250" y="160" width="110" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="p8XPLCWFIg5h7ARrhibj-2" value="Enclave RQ Generator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="110" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="p8XPLCWFIg5h7ARrhibj-3" value="PUF(IP)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="610" y="150" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="p8XPLCWFIg5h7ARrhibj-5" value="Enclave Memory Dispatcher" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="205" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zDPaxUz4RnN6vsnXp8VN-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="455" y="110" width="125" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="zDPaxUz4RnN6vsnXp8VN-1" value="FPGA SM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="450" y="110" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zDPaxUz4RnN6vsnXp8VN-3" value="crypto" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="467.5" y="140" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zDPaxUz4RnN6vsnXp8VN-4" value="control" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="467.5" y="180" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zDPaxUz4RnN6vsnXp8VN-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="zDPaxUz4RnN6vsnXp8VN-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="240" as="sourcePoint" />
-            <mxPoint x="410" y="190" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zDPaxUz4RnN6vsnXp8VN-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zDPaxUz4RnN6vsnXp8VN-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="180" as="sourcePoint" />
-            <mxPoint x="520" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="G2TH_kOnZWlZddMKmQzn" name="SM &amp; RT">
-    <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="CxCAHTCYQ38X0L5cLBmD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="170" width="410" height="260" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="BCmon-bG9vmB4oVdUGJF" name="Secure_boot">
     <mxGraphModel dx="1122" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,7 +150,7 @@
         <mxCell id="3wAHUatnY1k3J9a_G3M--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3wAHUatnY1k3J9a_G3M--4" target="3wAHUatnY1k3J9a_G3M--38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3wAHUatnY1k3J9a_G3M--4" value="Hash of boot process" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="3wAHUatnY1k3J9a_G3M--4" value="Hash of loader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="1020" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3wAHUatnY1k3J9a_G3M--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3wAHUatnY1k3J9a_G3M--5" target="3wAHUatnY1k3J9a_G3M--38">
@@ -243,7 +173,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3wAHUatnY1k3J9a_G3M--5" value="boot process" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="3wAHUatnY1k3J9a_G3M--5" value="loader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="1020" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3wAHUatnY1k3J9a_G3M--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3wAHUatnY1k3J9a_G3M--6" target="3wAHUatnY1k3J9a_G3M--5">
@@ -350,7 +280,137 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Zf1dCsSXfxFh9O91kOBU" name="CPU cluster">
+  <diagram id="G2TH_kOnZWlZddMKmQzn" name="SM &amp; RT">
+    <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CxCAHTCYQ38X0L5cLBmD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="170" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oGXXnCkoGnstZmPuE21W-1" value="Saber&lt;div&gt;（Security Monitor）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oGXXnCkoGnstZmPuE21W-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGXXnCkoGnstZmPuE21W-3" value="Gawain（Runtime for building enclave Cluster）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="185" y="95" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tloVNid40GHRwvEv6KKv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517" y="170" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tloVNid40GHRwvEv6KKv-2" value="Lancelot（Secure I/O Runtime for FPGA Acceleration）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="532" y="185" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tloVNid40GHRwvEv6KKv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517" y="300" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tloVNid40GHRwvEv6KKv-4" value="Tristan（Runtime for HPC in a Cluster）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="532" y="315" width="280" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AX_PNSprOtDnCvLPGyHK" name="CPU-FPGA(secure IO)">
+    <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ei4g1-9aVAL9ST8Osvbl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="70" width="340" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ei4g1-9aVAL9ST8Osvbl-2" value="SM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="30" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ei4g1-9aVAL9ST8Osvbl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="85" width="290" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="ei4g1-9aVAL9ST8Osvbl-4" value="FPGA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="560" y="85" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ei4g1-9aVAL9ST8Osvbl-5" value="Enclave Management" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="300" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p8XPLCWFIg5h7ARrhibj-1" value="&amp;nbsp;Communicator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="250" y="160" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p8XPLCWFIg5h7ARrhibj-2" value="Enclave RQ Generator" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="110" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p8XPLCWFIg5h7ARrhibj-3" value="PUF(IP)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="730" y="165" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p8XPLCWFIg5h7ARrhibj-5" value="Enclave Memory Dispatcher" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="205" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zDPaxUz4RnN6vsnXp8VN-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="575" y="125" width="125" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="zDPaxUz4RnN6vsnXp8VN-1" value="FPGA SM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="570" y="125" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zDPaxUz4RnN6vsnXp8VN-3" value="crypto" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="587.5" y="155" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zDPaxUz4RnN6vsnXp8VN-4" value="control" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="587.5" y="225" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zDPaxUz4RnN6vsnXp8VN-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" target="zDPaxUz4RnN6vsnXp8VN-3" edge="1" source="zDPaxUz4RnN6vsnXp8VN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="195" as="sourcePoint" />
+            <mxPoint x="640" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HmJOPPOZB3F0C64OKbV-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zDPaxUz4RnN6vsnXp8VN-2" target="0HmJOPPOZB3F0C64OKbV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="125" as="sourcePoint" />
+            <mxPoint x="770" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HmJOPPOZB3F0C64OKbV-4" value="IPs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="750" y="100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0HmJOPPOZB3F0C64OKbV-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="140" as="sourcePoint" />
+            <mxPoint x="700" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HmJOPPOZB3F0C64OKbV-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="189.5" as="sourcePoint" />
+            <mxPoint x="700" y="189.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HmJOPPOZB3F0C64OKbV-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zDPaxUz4RnN6vsnXp8VN-3" target="zDPaxUz4RnN6vsnXp8VN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="647.5" y="185" as="sourcePoint" />
+            <mxPoint x="687.5" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HmJOPPOZB3F0C64OKbV-10" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Lancelot&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="160" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rUO8PGvj6SFK-av4GCuE-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="p8XPLCWFIg5h7ARrhibj-1" target="0HmJOPPOZB3F0C64OKbV-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="220" as="sourcePoint" />
+            <mxPoint x="410" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUO8PGvj6SFK-av4GCuE-2" value="RT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rUO8PGvj6SFK-av4GCuE-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="zDPaxUz4RnN6vsnXp8VN-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="494" y="239.5" as="sourcePoint" />
+            <mxPoint x="548" y="239.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Zf1dCsSXfxFh9O91kOBU" name="CPU cluster(remote attestation)">
     <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -358,7 +418,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="2rfxVTVb_KEhVecboE_y" name="CPU2HPC(cluster)">
+  <diagram id="2rfxVTVb_KEhVecboE_y" name="CPU2HPC(IO and HPC)">
     <mxGraphModel dx="954" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
