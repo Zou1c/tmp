@@ -309,6 +309,12 @@
         <mxCell id="tloVNid40GHRwvEv6KKv-4" value="Tristan（Runtime for HPC in a Cluster）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="532" y="315" width="280" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7l221MVA2we-hRvIot7m-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="170" width="315" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7l221MVA2we-hRvIot7m-2" value="Gray&lt;br&gt;&lt;div&gt;（Security Monitor in FPGA）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="870" y="230" width="300" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
