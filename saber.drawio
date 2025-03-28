@@ -288,32 +288,38 @@
         <mxCell id="CxCAHTCYQ38X0L5cLBmD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="170" width="310" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="oGXXnCkoGnstZmPuE21W-1" value="Saber&lt;div&gt;（Security Monitor）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="oGXXnCkoGnstZmPuE21W-1" value="Saber&lt;div&gt;（Security Monitor）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="200" y="230" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oGXXnCkoGnstZmPuE21W-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oGXXnCkoGnstZmPuE21W-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="80" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oGXXnCkoGnstZmPuE21W-3" value="Gawain（Runtime for building enclave Cluster）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="oGXXnCkoGnstZmPuE21W-3" value="Gawain(Runtime for building enclave Cluster)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="185" y="95" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tloVNid40GHRwvEv6KKv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tloVNid40GHRwvEv6KKv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="517" y="170" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tloVNid40GHRwvEv6KKv-2" value="Lancelot（Secure I/O Runtime for FPGA Acceleration）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="tloVNid40GHRwvEv6KKv-2" value="Lancelot(Secure I/O Runtime for FPGA Acceleration)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="532" y="185" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tloVNid40GHRwvEv6KKv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tloVNid40GHRwvEv6KKv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="517" y="300" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tloVNid40GHRwvEv6KKv-4" value="Tristan（Runtime for HPC in a Cluster）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="tloVNid40GHRwvEv6KKv-4" value="Tristan(Runtime for HPC in a Cluster)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="532" y="315" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7l221MVA2we-hRvIot7m-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7l221MVA2we-hRvIot7m-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="170" width="315" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="7l221MVA2we-hRvIot7m-2" value="Gray&lt;br&gt;&lt;div&gt;（Security Monitor in FPGA）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="7l221MVA2we-hRvIot7m-2" value="Gray&lt;br&gt;&lt;div&gt;（Security Monitor in FPGA）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="870" y="230" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S5KqjnKP0uxCMdGTo4aY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S5KqjnKP0uxCMdGTo4aY-2" value="Bedivere(Basic Runtime)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="180" y="385" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
