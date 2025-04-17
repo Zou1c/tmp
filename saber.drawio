@@ -323,41 +323,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CxCAHTCYQ38X0L5cLBmD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="170" width="310" height="190" as="geometry" />
+        <mxCell id="PBc_XsR9hYdZXt8K9_OG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="oGXXnCkoGnstZmPuE21W-2" target="PBc_XsR9hYdZXt8K9_OG-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oGXXnCkoGnstZmPuE21W-1" value="Saber&lt;div&gt;（Security Monitor）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="200" y="230" width="240" height="50" as="geometry" />
+        <mxCell id="oGXXnCkoGnstZmPuE21W-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="70" y="110" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oGXXnCkoGnstZmPuE21W-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="80" width="310" height="60" as="geometry" />
+        <mxCell id="oGXXnCkoGnstZmPuE21W-3" value="①bootingstrap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="85" y="125" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oGXXnCkoGnstZmPuE21W-3" value="Gawain(Runtime for building enclave Cluster)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="185" y="95" width="280" height="30" as="geometry" />
+        <mxCell id="xD7TwJBVvHfUWU--F8Su-1" value="Functionality of Specific Enclaves" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tloVNid40GHRwvEv6KKv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="517" y="170" width="310" height="60" as="geometry" />
+        <mxCell id="PBc_XsR9hYdZXt8K9_OG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xD7TwJBVvHfUWU--F8Su-2" target="PBc_XsR9hYdZXt8K9_OG-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tloVNid40GHRwvEv6KKv-2" value="Lancelot(Secure I/O Runtime for FPGA Acceleration)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="532" y="185" width="280" height="30" as="geometry" />
+        <mxCell id="xD7TwJBVvHfUWU--F8Su-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tloVNid40GHRwvEv6KKv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="517" y="300" width="310" height="60" as="geometry" />
+        <mxCell id="xD7TwJBVvHfUWU--F8Su-3" value="②Type-1 Enclave Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="265" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tloVNid40GHRwvEv6KKv-4" value="Tristan(Runtime for HPC in a Cluster)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="532" y="315" width="280" height="30" as="geometry" />
+        <mxCell id="PBc_XsR9hYdZXt8K9_OG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xD7TwJBVvHfUWU--F8Su-4" target="PBc_XsR9hYdZXt8K9_OG-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7l221MVA2we-hRvIot7m-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="860" y="170" width="315" height="190" as="geometry" />
+        <mxCell id="xD7TwJBVvHfUWU--F8Su-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="65" y="400" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7l221MVA2we-hRvIot7m-2" value="Gray&lt;br&gt;&lt;div&gt;（Security Monitor in FPGA）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="870" y="230" width="300" height="50" as="geometry" />
+        <mxCell id="xD7TwJBVvHfUWU--F8Su-5" value="③FPGA Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="415" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S5KqjnKP0uxCMdGTo4aY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="370" width="310" height="60" as="geometry" />
+        <mxCell id="PBc_XsR9hYdZXt8K9_OG-1" value="0.(OS assign memory region)&lt;div&gt;1.check memory if available&lt;/div&gt;&lt;div&gt;2.init memory space&lt;/div&gt;&lt;div&gt;3.build enclave region&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="440" y="70" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="S5KqjnKP0uxCMdGTo4aY-2" value="Bedivere(Basic Runtime)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="180" y="385" width="280" height="30" as="geometry" />
+        <mxCell id="PBc_XsR9hYdZXt8K9_OG-3" value="&lt;div&gt;- enclave assignment&lt;/div&gt;&lt;div&gt;- *enclave life cycle management&lt;/div&gt;&lt;div&gt;- memory en/decryption&lt;/div&gt;&lt;div&gt;- destroy and recycle memory region and PMP(et.) reset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="430" y="230" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PBc_XsR9hYdZXt8K9_OG-5" value="- enclave-FPGA binding&lt;div&gt;- bitstream/streaming file en/decryption&lt;/div&gt;&lt;div&gt;- data&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;en/decryption&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="430" y="380" width="380" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
