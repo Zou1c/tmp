@@ -136,7 +136,7 @@
         <mxCell id="Kx1IGqpja6D1YfciZHRu-13" value="Secure Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="130" y="600" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Kx1IGqpja6D1YfciZHRu-14" value="IOMMU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="Kx1IGqpja6D1YfciZHRu-14" value="MMU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="330" y="390" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xSQY4cvMzJ8U7HEwjI7z-1" value="Type-1 enclave for Non-Virtualized Computing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
@@ -157,7 +157,7 @@
           <mxGeometry x="898.75" y="90" width="180" height="260" as="geometry" />
         </mxCell>
         <mxCell id="jHH9jTIcIvD6KF4maWq4-1" value="FPGA&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Arch&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="g6r1BRGb_xg1B_Er3RdN-1">
-          <mxGeometry x="910" y="75" width="110" height="30" as="geometry" />
+          <mxGeometry x="910" y="90" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jHH9jTIcIvD6KF4maWq4-2" value="FPGA Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="g6r1BRGb_xg1B_Er3RdN-1">
           <mxGeometry x="925" y="275" width="120" height="40" as="geometry" />
@@ -264,7 +264,7 @@
         <mxCell id="g6r1BRGb_xg1B_Er3RdN-44" value="Secure Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="g6r1BRGb_xg1B_Er3RdN-1">
           <mxGeometry x="130" y="650" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g6r1BRGb_xg1B_Er3RdN-45" value="IOMMU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="g6r1BRGb_xg1B_Er3RdN-1">
+        <mxCell id="g6r1BRGb_xg1B_Er3RdN-45" value="MMU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="g6r1BRGb_xg1B_Er3RdN-1">
           <mxGeometry x="430" y="460" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="g6r1BRGb_xg1B_Er3RdN-46" value="HS-mode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="g6r1BRGb_xg1B_Er3RdN-1">
@@ -335,7 +335,7 @@
         <mxCell id="oGXXnCkoGnstZmPuE21W-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="70" y="110" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oGXXnCkoGnstZmPuE21W-3" value="①bootingstrap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="oGXXnCkoGnstZmPuE21W-3" value="①bootstrap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="85" y="125" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xD7TwJBVvHfUWU--F8Su-1" value="Functionality of Specific Enclaves" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
