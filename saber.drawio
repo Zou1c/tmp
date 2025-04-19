@@ -25,7 +25,7 @@
         <mxCell id="NWheqMKRCk0c7_515TsI-2" value="app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="180" y="90" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NWheqMKRCk0c7_515TsI-3" value="Type-1&amp;nbsp;&lt;div&gt;Enclave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;glass=0;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="NWheqMKRCk0c7_515TsI-3" value="Type-1&amp;nbsp;&lt;div&gt;Enclave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;glass=0;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="290" y="90" width="112.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NWheqMKRCk0c7_515TsI-5" value="U-mode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
@@ -79,7 +79,7 @@
         <mxCell id="NWheqMKRCk0c7_515TsI-23" value="FPGA Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="798.75" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NWheqMKRCk0c7_515TsI-26" value="FPGA Enclave" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="NWheqMKRCk0c7_515TsI-26" value="FPGA Enclave" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="802.5" y="90" width="112.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NWheqMKRCk0c7_515TsI-27" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startSize=6;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NWheqMKRCk0c7_515TsI-9" target="NWheqMKRCk0c7_515TsI-23" edge="1">
@@ -103,7 +103,7 @@
         <mxCell id="jTecf7ZLcZVF97szy6Vs-4" value="Inherently Trusted Components" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="130" y="510" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Kx1IGqpja6D1YfciZHRu-1" value="Type-1&amp;nbsp;&lt;div&gt;Enclave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Kx1IGqpja6D1YfciZHRu-1" value="Type-1&amp;nbsp;&lt;div&gt;Enclave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="422.5" y="90" width="112.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Kx1IGqpja6D1YfciZHRu-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
@@ -174,7 +174,7 @@
         <mxCell id="hDLNfjjDPWzAgsxzFCFQ-8" value="app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
           <mxGeometry x="180" y="70" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hDLNfjjDPWzAgsxzFCFQ-9" value="Type-2&lt;div&gt;Enclave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;glass=0;gradientColor=none;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
+        <mxCell id="hDLNfjjDPWzAgsxzFCFQ-9" value="Type-2&lt;div&gt;Enclave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;glass=0;gradientColor=#FFFFFF;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
           <mxGeometry x="288.75" y="70" width="112.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hDLNfjjDPWzAgsxzFCFQ-10" value="U-mode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
@@ -228,7 +228,7 @@
         <mxCell id="hDLNfjjDPWzAgsxzFCFQ-25" value="FPGA Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
           <mxGeometry x="798.75" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hDLNfjjDPWzAgsxzFCFQ-26" value="FPGA Enclave" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
+        <mxCell id="hDLNfjjDPWzAgsxzFCFQ-26" value="FPGA Enclave" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
           <mxGeometry x="802.5" y="90" width="112.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hDLNfjjDPWzAgsxzFCFQ-27" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startSize=6;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="hDLNfjjDPWzAgsxzFCFQ-1" source="hDLNfjjDPWzAgsxzFCFQ-13" target="hDLNfjjDPWzAgsxzFCFQ-25" edge="1">
@@ -252,7 +252,7 @@
         <mxCell id="hDLNfjjDPWzAgsxzFCFQ-32" value="Inherently Trusted Components" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
           <mxGeometry x="130" y="510" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hDLNfjjDPWzAgsxzFCFQ-33" value="Type-2&lt;div&gt;Enclave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
+        <mxCell id="hDLNfjjDPWzAgsxzFCFQ-33" value="Type-2&lt;div&gt;Enclave&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;gradientColor=#FFFFFF;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
           <mxGeometry x="422.5" y="70" width="112.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hDLNfjjDPWzAgsxzFCFQ-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="hDLNfjjDPWzAgsxzFCFQ-1" edge="1">
@@ -314,7 +314,7 @@
         <mxCell id="jHH9jTIcIvD6KF4maWq4-2" value="FPGA Monitor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
           <mxGeometry x="925" y="275" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jHH9jTIcIvD6KF4maWq4-3" value="FPGA Enclave" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
+        <mxCell id="jHH9jTIcIvD6KF4maWq4-3" value="FPGA Enclave" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
           <mxGeometry x="932.5" y="135" width="112.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="g6r1BRGb_xg1B_Er3RdN-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
@@ -392,7 +392,7 @@
         <mxCell id="g6r1BRGb_xg1B_Er3RdN-32" value="Inherently Trusted Components" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
           <mxGeometry x="130" y="560" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g6r1BRGb_xg1B_Er3RdN-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
+        <mxCell id="g6r1BRGb_xg1B_Er3RdN-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=1;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
           <mxGeometry x="580" y="80" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="g6r1BRGb_xg1B_Er3RdN-38" value="app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
@@ -446,7 +446,7 @@
         <mxCell id="7XS1Zgl544vg9Ns2Ph24-0" value="Type-3 enclave for Virtualized Computing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
           <mxGeometry x="110" y="-30" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6BTGofick7Td67AfsKQD-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
+        <mxCell id="6BTGofick7Td67AfsKQD-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=1;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
           <mxGeometry x="410" y="80" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="6BTGofick7Td67AfsKQD-1" value="app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="g6r1BRGb_xg1B_Er3RdN-1" vertex="1">
