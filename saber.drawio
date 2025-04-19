@@ -207,7 +207,7 @@
         <mxCell id="hDLNfjjDPWzAgsxzFCFQ-19" value="&amp;nbsp;Hardware" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
           <mxGeometry x="620" y="400" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hDLNfjjDPWzAgsxzFCFQ-20" value="loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#99FF99;strokeColor=#82b366;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
+        <mxCell id="hDLNfjjDPWzAgsxzFCFQ-20" value="OpenSBI" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#99FF99;strokeColor=#82b366;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
           <mxGeometry x="410" y="300" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hDLNfjjDPWzAgsxzFCFQ-21" value="CSRs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="hDLNfjjDPWzAgsxzFCFQ-1" vertex="1">
