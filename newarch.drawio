@@ -828,16 +828,16 @@
         <mxCell id="hut-6xrUPRgxwdZu2pXZ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="280" y="530" width="240" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="hut-6xrUPRgxwdZu2pXZ-4" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="hut-6xrUPRgxwdZu2pXZ-4" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="300" y="780" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hut-6xrUPRgxwdZu2pXZ-5" value="Security Monitor (SM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="hut-6xrUPRgxwdZu2pXZ-5" value="Security Monitor (SM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="300" y="720" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hut-6xrUPRgxwdZu2pXZ-6" value="Utility Enclave&#xa;(utility_rconnection)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="hut-6xrUPRgxwdZu2pXZ-6" value="Utility Enclave&#xa;(utility_rconnection)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="300" y="660" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hut-6xrUPRgxwdZu2pXZ-7" value="App Enclave" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="hut-6xrUPRgxwdZu2pXZ-7" value="App Enclave" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="300" y="570" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hut-6xrUPRgxwdZu2pXZ-8" value="Node B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
@@ -846,16 +846,16 @@
         <mxCell id="hut-6xrUPRgxwdZu2pXZ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="640" y="530" width="240" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="hut-6xrUPRgxwdZu2pXZ-10" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="hut-6xrUPRgxwdZu2pXZ-10" value="Hardware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="660" y="780" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hut-6xrUPRgxwdZu2pXZ-11" value="Security Monitor (SM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="hut-6xrUPRgxwdZu2pXZ-11" value="Security Monitor (SM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="660" y="720" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hut-6xrUPRgxwdZu2pXZ-12" value="Utility Enclave&#xa;(utility_rconnection)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="hut-6xrUPRgxwdZu2pXZ-12" value="Utility Enclave&#xa;(utility_rconnection)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="660" y="660" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hut-6xrUPRgxwdZu2pXZ-13" value="App Enclave" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="hut-6xrUPRgxwdZu2pXZ-13" value="App Enclave" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="660" y="570" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hut-6xrUPRgxwdZu2pXZ-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#009900;" edge="1" parent="1" source="hut-6xrUPRgxwdZu2pXZ-6" target="hut-6xrUPRgxwdZu2pXZ-12">
