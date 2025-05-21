@@ -1364,7 +1364,7 @@
         <mxCell id="IsmT3H7hoWeHn58ce4gn-10" value="MMIO Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="450" y="730" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IsmT3H7hoWeHn58ce4gn-11" value="Secure Monitor (SM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-11" value="Security Monitor (SM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="420" y="840" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IsmT3H7hoWeHn58ce4gn-12" value="FPGA Accelerator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
@@ -1380,7 +1380,7 @@
           <mxGeometry x="650" y="480" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IsmT3H7hoWeHn58ce4gn-17" value="Key_memory" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="210" y="840" width="200" height="30" as="geometry" />
+          <mxGeometry x="440" y="890" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IsmT3H7hoWeHn58ce4gn-18" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="IsmT3H7hoWeHn58ce4gn-1" target="IsmT3H7hoWeHn58ce4gn-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
