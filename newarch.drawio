@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.6" pages="11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.6" pages="12">
   <diagram name="系统架构图" id="zy7hzJetPBVgdsyrY6hQ">
     <mxGraphModel dx="1193" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1325,6 +1325,169 @@
         </mxCell>
         <mxCell id="wwA3IgvF8jwzPbMKi5GE-39" value="if(H-extension)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="730" y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lmH8tK-Uo1C5Jmlm0GIN" name="FPGA">
+    <mxGraphModel dx="2066" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-1" value="User Enclave&#xa;(Encrypted Memory)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-2" value="Enclave Data/Code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-3" value="Result Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="170" y="430" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-4" value="Utility_Peripheral&#xa;(First Utility Enclave Type)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="200" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-5" value="Key Exchange Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-6" value="Device Recognition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-7" value="Encryption Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-8" value="Decryption Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="600" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-9" value="FPGA Driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="500" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-10" value="MMIO Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="730" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-11" value="Secure Monitor (SM)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="840" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-12" value="FPGA Accelerator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="560" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-13" value="Crypto Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="730" y="610" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-14" value="PL domain" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="730" y="670" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-16" value="Key_peripheral (Symmetric Key)" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="480" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-17" value="Key_memory" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="840" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-18" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="IsmT3H7hoWeHn58ce4gn-1" target="IsmT3H7hoWeHn58ce4gn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="370" as="sourcePoint" />
+            <mxPoint x="410" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-19" value="1. Initial Call: Request to transmit data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;" vertex="1" connectable="0" parent="IsmT3H7hoWeHn58ce4gn-18">
+          <mxGeometry x="-0.1" y="10" relative="1" as="geometry">
+            <mxPoint x="10" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-20" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="IsmT3H7hoWeHn58ce4gn-5" target="IsmT3H7hoWeHn58ce4gn-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="390" as="sourcePoint" />
+            <mxPoint x="720" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="420" />
+              <mxPoint x="650" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-21" value="2. Device recognition &amp; key exchange&#xa;(establishes Key_peripheral)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;" vertex="1" connectable="0" parent="IsmT3H7hoWeHn58ce4gn-20">
+          <mxGeometry x="0.0714" y="20" relative="1" as="geometry">
+            <mxPoint x="50" y="-80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-24" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="IsmT3H7hoWeHn58ce4gn-11" target="IsmT3H7hoWeHn58ce4gn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="830" as="sourcePoint" />
+            <mxPoint x="470" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-25" value="4. Share decrypted data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;" vertex="1" connectable="0" parent="IsmT3H7hoWeHn58ce4gn-24">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint x="-100" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-26" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IsmT3H7hoWeHn58ce4gn-9" target="IsmT3H7hoWeHn58ce4gn-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="690" as="sourcePoint" />
+            <mxPoint x="690" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="520" />
+              <mxPoint x="630" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-27" value="5. Send encrypted data to FPGA&#xa;(via MMIO, encrypted with Key_peripheral)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;" vertex="1" connectable="0" parent="IsmT3H7hoWeHn58ce4gn-26">
+          <mxGeometry x="-0.0889" relative="1" as="geometry">
+            <mxPoint x="-40" y="67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-28" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="749.5" as="sourcePoint" />
+            <mxPoint x="590" y="749.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="749.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-29" value="6. Send result data back&#xa;(encrypted with Key_peripheral)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="IsmT3H7hoWeHn58ce4gn-28">
+          <mxGeometry x="0.1333" relative="1" as="geometry">
+            <mxPoint x="-38" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-30" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="IsmT3H7hoWeHn58ce4gn-4" target="IsmT3H7hoWeHn58ce4gn-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="810" as="sourcePoint" />
+            <mxPoint x="570" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-31" value="7a. Call SM to encrypt result data&lt;br&gt;with Key_memory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="IsmT3H7hoWeHn58ce4gn-30">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint x="100" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-32" value="" style="endArrow=classic;html=1;strokeWidth=2;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IsmT3H7hoWeHn58ce4gn-4" target="IsmT3H7hoWeHn58ce4gn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="450" as="sourcePoint" />
+            <mxPoint x="350" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="680" />
+              <mxPoint x="380" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-33" value="7b. Place encrypted results&#xa;in enclave memory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;" vertex="1" connectable="0" parent="IsmT3H7hoWeHn58ce4gn-32">
+          <mxGeometry x="0.0154" relative="1" as="geometry">
+            <mxPoint x="-80" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="IsmT3H7hoWeHn58ce4gn-35" target="IsmT3H7hoWeHn58ce4gn-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="930" />
+              <mxPoint x="920" y="930" />
+              <mxPoint x="920" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-35" value="TRNG" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="880" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IsmT3H7hoWeHn58ce4gn-37" value="3. Call SM to decrypt enclave memory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
