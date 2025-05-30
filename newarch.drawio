@@ -1706,8 +1706,8 @@
         <mxCell id="EQT3kXC1YPgyE4qk4ou9-16" value="Design Overview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
           <mxGeometry x="350" y="460" width="96" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EQT3kXC1YPgyE4qk4ou9-19" value="包括：内存分布图" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
-          <mxGeometry x="731" y="620" width="139" height="50" as="geometry" />
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-19" value="包括：内存分布图，以及如何隔离" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="731" y="630" width="139" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EQT3kXC1YPgyE4qk4ou9-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-23">
           <mxGeometry relative="1" as="geometry">
