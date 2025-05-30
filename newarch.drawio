@@ -1653,7 +1653,7 @@
         <mxCell id="xmLfIElzUiOfYIyeBbsj-49" value="总感觉有点怪，因为TCB没有在threat modeling中提出，所以在这里讲" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="1110" y="185" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IX4Aa2PV6fCWDASgOEFO-1" value="&lt;font style=&quot;&quot;&gt;由于时间关系，因此硬件加密这块先删去了&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="IX4Aa2PV6fCWDASgOEFO-1" value="&lt;font style=&quot;&quot;&gt;由于时间关系，因此硬件加密这块先删去了。即只做isolation&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="690" y="540" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
@@ -1813,6 +1813,33 @@
         </mxCell>
         <mxCell id="EQT3kXC1YPgyE4qk4ou9-51" value="总感觉有点怪，因为TCB没有在threat modeling中提出，所以在这里讲" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
           <mxGeometry x="1110" y="185" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="D_ZWc0PRHIqzYYvW85UF-0" target="D_ZWc0PRHIqzYYvW85UF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="D_ZWc0PRHIqzYYvW85UF-0" target="D_ZWc0PRHIqzYYvW85UF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-0" value="Conclusion and future work" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="1050" y="820" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="D_ZWc0PRHIqzYYvW85UF-1" target="D_ZWc0PRHIqzYYvW85UF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="D_ZWc0PRHIqzYYvW85UF-1" target="D_ZWc0PRHIqzYYvW85UF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-1" value="implementation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="1241" y="760" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-2" value="hardware crypto encryption engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="1370" y="790" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-3" value="SW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="1370" y="720" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D_ZWc0PRHIqzYYvW85UF-4" value="performance evaluation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="1241" y="860" width="96" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
