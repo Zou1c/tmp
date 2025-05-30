@@ -1626,6 +1626,33 @@
         <mxCell id="xmLfIElzUiOfYIyeBbsj-40" value="一个sel4(已形式化验证的OS内核)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1040" width="96" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-45" target="xmLfIElzUiOfYIyeBbsj-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-45" target="xmLfIElzUiOfYIyeBbsj-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-45" target="xmLfIElzUiOfYIyeBbsj-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-45" value="Security Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-46" target="xmLfIElzUiOfYIyeBbsj-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-46" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="944" y="190" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-47" value="Security Comparison with Existing TEEs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="944" y="250" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-48" value="Attack Surface Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="944" y="310" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-49" value="总感觉有点怪，因为" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="190" width="96" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
