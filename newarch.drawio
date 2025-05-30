@@ -1492,7 +1492,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="0tRoojI7TEr9baWbia47" name="Design结构">
+  <diagram id="0tRoojI7TEr9baWbia47" name="文章结构梳理">
     <mxGraphModel dx="2066" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1650,8 +1650,8 @@
         <mxCell id="xmLfIElzUiOfYIyeBbsj-48" value="Attack Surface Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="944" y="310" width="96" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xmLfIElzUiOfYIyeBbsj-49" value="总感觉有点怪，因为" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="190" width="96" height="50" as="geometry" />
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-49" value="总感觉有点怪，因为TCB没有在threat modeling中提出，所以在这里讲" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="185" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
