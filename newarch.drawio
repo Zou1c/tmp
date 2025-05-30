@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.6" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.6" pages="13">
   <diagram name="系统架构图" id="zy7hzJetPBVgdsyrY6hQ">
     <mxGraphModel dx="1193" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1488,6 +1488,143 @@
         </mxCell>
         <mxCell id="IsmT3H7hoWeHn58ce4gn-37" value="3. Call SM to decrypt enclave memory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fillColor=#ffffff;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="330" y="810" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0tRoojI7TEr9baWbia47" name="Design结构">
+    <mxGraphModel dx="2066" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-1" target="xmLfIElzUiOfYIyeBbsj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-1" target="xmLfIElzUiOfYIyeBbsj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-1" target="xmLfIElzUiOfYIyeBbsj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-1" value="Threat modeling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-2" value="intro and assumption" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-3" value="Considered Attacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-4" value="Out of scope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="300" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-8" target="xmLfIElzUiOfYIyeBbsj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-8" target="xmLfIElzUiOfYIyeBbsj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-8" target="xmLfIElzUiOfYIyeBbsj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-8" target="xmLfIElzUiOfYIyeBbsj-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-8" target="xmLfIElzUiOfYIyeBbsj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-8" target="xmLfIElzUiOfYIyeBbsj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-8" value="Sabre Architecture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-9" value="Design Overview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-10" target="xmLfIElzUiOfYIyeBbsj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-10" value="Hardware Extensions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="535" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-11" value="这部分包括：内存分布图，crypto engine的位置" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="535" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-14" value="SM的设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="650" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-15" value="Key management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="610" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-16" value="Memory management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="635" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-17" value="Trusted Boot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="680" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-18" value="Enclave Creation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="700" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-19" value="Exceptions and intruupts handling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="740" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-20" value="Local Attestation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="770" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-24" value="TSM的设计&lt;br&gt;——直接套用的CoVE框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="800" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-25" target="xmLfIElzUiOfYIyeBbsj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-25" target="xmLfIElzUiOfYIyeBbsj-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-25" value="Specialized enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="910" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-26" value="Attestation enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="870" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-27" target="xmLfIElzUiOfYIyeBbsj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-27" target="xmLfIElzUiOfYIyeBbsj-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-27" value="Utility enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="950" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-28" value="I/O enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="920" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-29" value="Communication enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="980" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmLfIElzUiOfYIyeBbsj-34" target="xmLfIElzUiOfYIyeBbsj-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-34" value="Sabre Modular Runtime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1040" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xmLfIElzUiOfYIyeBbsj-40" value="一个sel4(已形式化验证的OS内核)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1040" width="96" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
