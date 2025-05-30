@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.6" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.6" pages="14">
   <diagram name="系统架构图" id="zy7hzJetPBVgdsyrY6hQ">
     <mxGraphModel dx="1193" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1651,6 +1651,167 @@
           <mxGeometry x="944" y="310" width="96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xmLfIElzUiOfYIyeBbsj-49" value="总感觉有点怪，因为TCB没有在threat modeling中提出，所以在这里讲" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="185" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IX4Aa2PV6fCWDASgOEFO-1" value="&lt;font style=&quot;&quot;&gt;由于时间关系，因此硬件加密这块先删去了&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="540" width="300" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="文章结构梳理 的副本" id="qZzt54wdAdEzrtONq2xa">
+    <mxGraphModel dx="2066" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-0" />
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-1" parent="EQT3kXC1YPgyE4qk4ou9-0" />
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-5" target="EQT3kXC1YPgyE4qk4ou9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-5" target="EQT3kXC1YPgyE4qk4ou9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-5" target="EQT3kXC1YPgyE4qk4ou9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-5" value="Threat modeling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-6" value="intro and assumption" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="354" y="180" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-7" value="Considered Attacks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="354" y="240" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-8" value="Out of scope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="354" y="300" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-15" target="EQT3kXC1YPgyE4qk4ou9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-15" target="EQT3kXC1YPgyE4qk4ou9-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-15" target="EQT3kXC1YPgyE4qk4ou9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-15" target="EQT3kXC1YPgyE4qk4ou9-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-15" target="EQT3kXC1YPgyE4qk4ou9-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-15" value="Sabre Architecture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="90" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-16" value="Design Overview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="350" y="460" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-19" value="包括：内存分布图" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="731" y="620" width="139" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-23" value="SM的设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="350" y="650" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-24" value="Key management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="610" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DxnEFHLbVE4Nb-aE5RL4-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-25" target="EQT3kXC1YPgyE4qk4ou9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-25" value="Memory management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="635" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-26" value="Trusted Boot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="680" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-27" value="Enclave Creation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="700" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-28" value="Exceptions and intruupts handling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="740" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-29" value="Local Attestation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="770" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-30" value="TSM的设计&lt;br&gt;——直接套用的CoVE框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="350" y="800" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-33" target="EQT3kXC1YPgyE4qk4ou9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-33" target="EQT3kXC1YPgyE4qk4ou9-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-33" value="Specialized enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="350" y="910" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-34" value="Attestation enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="870" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-37" target="EQT3kXC1YPgyE4qk4ou9-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-37" target="EQT3kXC1YPgyE4qk4ou9-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-37" value="Utility enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="950" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-38" value="I/O enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="650" y="920" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-39" value="Communication enclave" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="650" y="980" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-41" target="EQT3kXC1YPgyE4qk4ou9-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-41" value="Sabre Modular Runtime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="350" y="1040" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-42" value="一个sel4(已形式化验证的OS内核)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="510" y="1040" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-46" target="EQT3kXC1YPgyE4qk4ou9-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-46" target="EQT3kXC1YPgyE4qk4ou9-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-46" target="EQT3kXC1YPgyE4qk4ou9-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-46" value="Security Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="770" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EQT3kXC1YPgyE4qk4ou9-1" source="EQT3kXC1YPgyE4qk4ou9-48" target="EQT3kXC1YPgyE4qk4ou9-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-48" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="944" y="190" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-49" value="Security Comparison with Existing TEEs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="944" y="250" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-50" value="Attack Surface Analysis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
+          <mxGeometry x="944" y="310" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQT3kXC1YPgyE4qk4ou9-51" value="总感觉有点怪，因为TCB没有在threat modeling中提出，所以在这里讲" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="EQT3kXC1YPgyE4qk4ou9-1">
           <mxGeometry x="1110" y="185" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
